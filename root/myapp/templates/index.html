@@ -1,0 +1,16 @@
+<h1> 블로그 게시글 목록 </h1>
+
+{% if post_list %}
+<ul>
+    {% for post in post_list %}
+    <li>
+        <a href="{% url 'detail' post.id %}">
+            {{ post.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+
+{% else %}
+<h2> 아직 게시글이 없습니다. </h2>
+{% endif %}

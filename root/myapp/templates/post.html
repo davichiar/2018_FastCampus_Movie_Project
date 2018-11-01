@@ -1,0 +1,17 @@
+<h1>{{ post.title }}</h1>
+<p>{{ post.create_date }} / {{ post.modify_date }}</p>
+
+<div>
+    {{ post.content }}
+</div>
+
+<div>
+    <ul>
+        {% for comment in comments %}
+        <li>
+            {{ comment.text }} {{ comment.create_date }}
+            {% endfor %}
+        </li>
+    </ul>
+</div>
+
