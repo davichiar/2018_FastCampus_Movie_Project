@@ -1,3 +1,2 @@
-# 2018_KPU_WebProject_DVCLJ
-DVCLJ 자기소개 홈페이지 관련 KPU CloudComputing 프로젝트 입니다.
-
+# 2018_FastCampus_Movie_Project
+2018_FastCampus_Movie_Project 입니다.
